@@ -1,0 +1,31 @@
+@media screen and (min-width:750px){
+    body{
+        font-size: 16px;
+    }
+    .hero h2{
+        width: 50%;
+     }
+     .best_book .book{
+        width: 80%;
+        display: flex;
+        flex-wrap: nowrap;
+    }
+    .best_book .book .img img.shadow{
+        display: block;
+    }
+    .best_book .book .img{
+        position: relative;
+        width: 310px;
+        height: 410px;
+    }
+    .best_book .book .img img{
+        width: 310px;
+        height: 410px;
+    }
+    .category .background_text{
+        font-size: 13em;
+    }
+    .best_book .background_text{
+        font-size: 10em;
+    }
+}
